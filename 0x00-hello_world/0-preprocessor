@@ -1,0 +1,8 @@
+#!/bin/bash
+
+CFILE=$1
+CDIR=$(dirname "$(realpath "$CFILE")")
+
+gcc -E "$CDIR/$CFILE" -o c
+
+tail c
