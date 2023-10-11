@@ -10,4 +10,7 @@ void function3(char *str);
 /* Prototype for _putchar function */
 int _putchar(char c);
 
+/* other prototypes */
+void print_alphabet(void);
+
 #endif /* MAIN_H */
