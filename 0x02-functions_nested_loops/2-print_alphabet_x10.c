@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * Prints the lowercase alphabet 10 times, each followed by a newline character
+ * print_alphabet_x10 prints the lowercase alphabet 10 times followed by a newline
  *
- * Return: void
+ * This function prints the lowercase alphabet 10 times followed by a newline character
+ * using the _putchar function.
  */
 void print_alphabet_x10(void)
 {
