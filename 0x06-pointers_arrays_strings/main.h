@@ -9,5 +9,7 @@ void reverse_array(int *a, int n);
 void print_array(int *a, int n);
 int main(void);
 char *string_toupper(char *);
+char *cap_string(char *);
+int is_separator(char c);
 
 #endif
