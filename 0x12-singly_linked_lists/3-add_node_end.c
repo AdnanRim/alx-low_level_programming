@@ -21,11 +21,12 @@ if (new->str == NULL)
 free(new);
 return (NULL);
 }
+new->len = strlen(str);
 new->next = NULL;
 if (*head == NULL)
 *head = new;
 else
-{  
+{
 current = *head;
 while (current->next != NULL)
 current = current->next;
