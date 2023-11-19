@@ -21,6 +21,7 @@ free(new);
 return (NULL);
 }
 new->next = *head;
+new->len = strlen(str);
 *head = new;
 return (new);
 }
